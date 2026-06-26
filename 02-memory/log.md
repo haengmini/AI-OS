@@ -8,6 +8,10 @@ status: stable
 
 # Wiki Change Log (append-only)
 
+## 2026-06-26 — AI OS 및 DFXISP 연구 프로젝트 GitHub 연동 및 1차 동기화 완료 (by Gemini)
+- AI OS (`g:\내 드라이브\Agent OS` -> `https://github.com/haengmini/AI-OS.git`) 로컬 리포지토리를 초기화하고 원격에 푸시 완료 (구글 드라이브 포인터 파일 `.gdoc`, `.gsheet`, `.gslides` 필터링 조치 포함).
+- DFXISP (`g:\내 드라이브\Agent OS\06-production\DFXISP` -> `https://github.com/haengmini/dfxisp.git`) 로컬 리포지토리를 원격 main 브랜치와 안전하게 연결하여 로컬 최신 연구 파일군 및 HLS csim 코드를 반영한 상태로 동기화 푸시 완료.
+
 ## 2026-06-26 — 에이전트 계약 규칙 및 CLAUDE.md 갱신 (by Gemini)
 - `AGENTS.md` (§2), `GEMINI.md` (§3) 및 `CLAUDE.md` (§ 핵심 규칙)를 수정하여 "작업 완료 후 항상 GitHub, Google Drive, Notion 에 기록을 갱신/커밋하여 동기화"하는 전역 동기화 규칙을 공식 추가.
 
