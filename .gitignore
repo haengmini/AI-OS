@@ -1,0 +1,29 @@
+# graphify input guard — mirrors .graphifyignore for graphify versions that ignore .graphifyignore
+# Keep graphify outputs and machine/config state out of the semantic knowledge graph.
+
+graphify-out/
+
+*.json
+*.yaml
+*.yml
+*.toml
+*.lock
+*.log
+*.txt
+*.jsonl
+*.gdoc
+*.gsheet
+*.gslides
+
+**/manifest.json
+**/*slack*manifest*
+**/app-manifest.*
+
+node_modules/
+.venv/
+__pycache__/
+.git/
+
+.obsidian/
+_archive/
+logs/
